@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_gravity="center"
+    android:gravity="center"
     android:padding="16dp">
 
     <LinearLayout
@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
         android:layout_marginBottom="16dp"
-        android:hint="First Name"
+        android:hint="@string/first_name"
         android:textColor="@android:color/black" />
 
         <EditText
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="16dp"
-            android:hint="Last Name"
+            android:hint="@string/last_name"
             android:textColor="@android:color/black" />
 
     </LinearLayout>
@@ -36,35 +36,35 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Username"
+        android:hint="@string/username"
         android:textColor="@android:color/black" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Email"
+        android:hint="@string/email"
         android:textColor="@android:color/black" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Password"
+        android:hint="@string/password"
         android:textColor="@android:color/black" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Confirm Password"
+        android:hint="@string/confirm_password"
         android:textColor="@android:color/black" />
 
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="I agree with the terms and conditions."
+        android:text="@string/terms_and_conditions"
         android:textColor="@android:color/darker_gray" />
 
     <Button
@@ -73,8 +73,7 @@
         android:layout_gravity="right"
 
         android:background="@color/app_green"
-        android:text="Sign Up"
+        android:text="@string/sign_up"
         android:textColor="@android:color/white" />
-
 
 </LinearLayout>

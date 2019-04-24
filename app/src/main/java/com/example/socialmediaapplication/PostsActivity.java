@@ -3,8 +3,7 @@ package com.example.socialmediaapplication;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class StartActivity extends AppCompatActivity {
-
+public class PostsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
