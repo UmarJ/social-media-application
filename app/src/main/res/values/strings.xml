@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SocialMediaApplication</string>
+    <string name="username_box">Username</string>
+    <string name="password_box">Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="forgot_password_text">Forgot Password?</string>
+</resources>
