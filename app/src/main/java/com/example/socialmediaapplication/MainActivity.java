@@ -16,18 +16,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         ViewPager viewPager = findViewById(R.id.fragment_container);
-
         FragmentAdapterLoginSignUp adapter = new FragmentAdapterLoginSignUp(this,getSupportFragmentManager());
-
         viewPager.setAdapter(adapter);
-
         TabLayout tabLayout = findViewById(R.id.tabs);
-
         tabLayout.setupWithViewPager(viewPager);
-
-
+        setContentView(R.layout.activity_start);
 
     }
 }
