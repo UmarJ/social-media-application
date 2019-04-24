@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
         android:layout_marginBottom="16dp"
-        android:hint="@string/first_name"
+        android:hint="@string/first_name_box"
         android:textColor="@android:color/black" />
 
         <EditText
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="16dp"
-            android:hint="@string/last_name"
+            android:hint="@string/last_name_box"
             android:textColor="@android:color/black" />
 
     </LinearLayout>
@@ -36,44 +36,43 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="@string/username"
+        android:hint="@string/username_box"
         android:textColor="@android:color/black" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="@string/email"
+        android:hint="@string/email_box"
         android:textColor="@android:color/black" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="@string/password"
+        android:hint="@string/password_box"
         android:textColor="@android:color/black" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="@string/confirm_password"
+        android:hint="@string/confirm_password_box"
         android:textColor="@android:color/black" />
 
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="@string/terms_and_conditions"
+        android:text="@string/terms"
         android:textColor="@android:color/darker_gray" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-
         android:background="@color/app_green"
-        android:text="@string/sign_up"
+        android:text="@string/sign_up_button_text"
         android:textColor="@android:color/white" />
 
 </LinearLayout>
