@@ -1,4 +1,5 @@
-package com.example.testapplication;
+package com.example.socialmediaapplication;
+
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
